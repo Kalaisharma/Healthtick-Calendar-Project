@@ -23,7 +23,7 @@ const Calendar: React.FC = () => {
         setClientsbyDate(response.data);
         console.log(response.data);
       } catch (error) {
-        console.error("Error fetching clients:", error);
+        console.error("Error fetching clients info:", error);
       }
     };
     fetchDatabyDate();
