@@ -9,7 +9,7 @@ const Router_1 = __importDefault(require("./Router/Router"));
 const cors_1 = __importDefault(require("cors"));
 app.use(express_1.default.json());
 app.use((0, cors_1.default)({
-    origin: "https://healthtick-app.netlify.app/",
+    origin: "https://healthtick-app.netlify.app",
 }));
 app.use("/api", Router_1.default);
 const PORT = process.env.PORT || 5000;

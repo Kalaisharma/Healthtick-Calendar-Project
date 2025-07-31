@@ -5,7 +5,7 @@ import cors from 'cors';
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://healthtick-app.netlify.app/",
+    origin: "https://healthtick-app.netlify.app",
   })
 );
 app.use("/api",router );
