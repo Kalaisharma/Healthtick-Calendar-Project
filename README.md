@@ -48,7 +48,7 @@ Clone the repo
 bash
 Copy
 Edit
-git clone https://github.com/your-username/healthtick-calendar.git
+git clone [https://github.com/Kalaisharma/healthtick-calendar.git](https://github.com/Kalaisharma/Healthtick-Calendar-Project)
 cd healthtick-calendar
 Install dependencies
 
